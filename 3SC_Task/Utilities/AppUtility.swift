@@ -8,9 +8,7 @@
 import Foundation
 import UIKit
 
-/// App utility function
 class AppUtility {
-    
     static let shared: AppUtility = AppUtility()
   
     func loadImage(imageUrlString: String? = "") -> UIImage {
